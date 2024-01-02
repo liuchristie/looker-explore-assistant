@@ -10,7 +10,10 @@ application: explore_assistant {
     use_embeds: yes
     use_iframes: yes
     new_window: yes
-    new_window_external_urls: ["https://developers.generativeai.google/*"]
+    new_window_external_urls: [
+      "https://developers.generativeai.google/*",
+      "https://cloud.google.com",
+      "https://console.google.com"]
     local_storage: yes
     external_api_urls: ["https://us-central1-appbuilder-388321.cloudfunctions.net/explore-assistant-endpoint--us-central1"]
   }
